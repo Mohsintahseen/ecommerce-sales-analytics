@@ -1,0 +1,28 @@
+{
+  "name": "Ecommerce Analytics v2",
+  "dataColors": ["#1F4E78", "#F18F01", "#2E86AB", "#C73E1D", "#7A9E7E", "#A5C8E1", "#6C757D", "#3B1F2B"],
+  "background": "#FFFFFF",
+  "foreground": "#252423",
+  "tableAccent": "#1F4E78",
+  "good": "#2E7D32",
+  "neutral": "#F18F01",
+  "bad": "#C73E1D",
+  "maximum": "#1F4E78",
+  "center": "#A5C8E1",
+  "minimum": "#EAF2F8",
+  "textClasses": {
+    "callout": { "fontSize": 30, "fontFace": "Segoe UI Semibold", "color": "#1F4E78" },
+    "title":   { "fontSize": 13, "fontFace": "Segoe UI Semibold", "color": "#252423" },
+    "header":  { "fontSize": 12, "fontFace": "Segoe UI Semibold", "color": "#252423" },
+    "label":   { "fontSize": 10, "fontFace": "Segoe UI", "color": "#605E5C" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "show": true, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "border": [{ "show": true, "color": { "solid": { "color": "#DDE3EA" } }, "radius": 10 }],
+        "title": [{ "show": true, "fontColor": { "solid": { "color": "#252423" } }, "fontFamily": "Segoe UI Semibold", "fontSize": 13 }]
+      }
+    }
+  }
+}

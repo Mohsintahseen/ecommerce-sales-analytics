@@ -1,0 +1,23 @@
+# --- Data: not redistributed (size, licence, privacy) ---
+data/raw/*
+data/cleaned/*
+!data/raw/README.md
+!data/cleaned/README.md
+*.csv
+online_retail_II.xlsx
+
+# --- Working files that embed data or personal file paths ---
+Ecommerce_PowerQuery_Staging.xlsx
+Excel_Cleaning_Practice.xlsx
+~$*.xlsx
+*.pbix.bak
+
+# --- Secrets: never commit credentials ---
+.env
+*.password
+*.secret
+
+# --- OS and editor files ---
+.DS_Store
+Thumbs.db
+desktop.ini
